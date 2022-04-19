@@ -24,6 +24,8 @@ soup = BeautifulSoup(webpage, 'html.parser')
 title = soup.title
 
 #print(title.text)
+"tv-screener-table__symbol-container-description"
+
 
 companies = soup.findAll('span', attrs = {'class': 'tv-screener__description'})
 		
